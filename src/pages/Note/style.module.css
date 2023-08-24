@@ -1,0 +1,56 @@
+.container {
+    margin: 10px;
+    overflow-x: hidden;
+    margin-top: 160px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: rgb(17, 202, 17);
+    color: white;
+    border: 1px solid rgb(17, 202, 17);
+    border-radius: 10px;
+    padding: 8px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(18, 164, 18);
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.date {
+    color: #888;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+p {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+}

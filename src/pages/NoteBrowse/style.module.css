@@ -1,0 +1,19 @@
+.main_container {
+    height: auto;
+    margin-top: 160px;
+}
+
+.searchbar_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
